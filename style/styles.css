@@ -11,6 +11,13 @@
     height: 550px;
 
 }
+.Amenities{
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 550px;
+}
 .atext{
     color:white;
 
@@ -32,7 +39,6 @@
     background-size:cover;
     height: 600px;
     width: auto;
-
 }
 .RoomCards{
 /* background-color: aliceblue; */
@@ -48,4 +54,15 @@ h2 {
 }
 .packageText{
     color: rgb(31,81,168);
+}
+.white{
+    margin-top: 200px;
+    padding: 50px;
+    color:antiquewhite;
+}
+.imagespace{
+    display: flex;
+  justify-content: space-around;
+  margin: 45px;
+  height: 110px;
 }
