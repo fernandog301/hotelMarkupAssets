@@ -1,0 +1,51 @@
+.BGNav{
+    background-color: rgb(0,3,36);
+}
+
+.contain {
+    background-image: url("../assets/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    
+    height: 550px;
+
+}
+.atext{
+    color:white;
+
+}
+.bgDarkBlue{
+    background-color: rgba(0, 3, 36, 0.800);
+    color: white;
+    margin-top: 200px;
+    padding: 50px;
+}
+.bottom{
+    margin-bottom: 700px;
+    padding: 50px;
+}
+.RoomContainer{
+    background-image: url("../assets/bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 600px;
+    width: auto;
+
+}
+.RoomCards{
+/* background-color: aliceblue; */
+color: black;
+}
+h2 {
+    font-weight: 200;
+}
+.center{
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 10%;
+}
+.packageText{
+    color: rgb(31,81,168);
+}
