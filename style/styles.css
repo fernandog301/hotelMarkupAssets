@@ -32,6 +32,9 @@
     margin-bottom: 700px;
     padding: 50px;
 }
+.top{
+    padding-top: 60%;
+}
 .RoomContainer{
     background-image: url("../assets/bg2.jpg");
     background-repeat: no-repeat;
