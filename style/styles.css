@@ -1,15 +1,28 @@
 .BGNav{
     background-color: rgb(0,3,36);
+    position: absolute;
 }
-
+.textWhite{
+    color: white;
+}
+.border{
+    border: 2px solid;
+    border-color: white;
+    padding-bottom: 1px;
+}
 .contain {
     background-image: url("../assets/header.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-    
     height: 550px;
-
+}
+.bgEnd{
+    background-image: url("../assets/hamsterreserve.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 550px;
 }
 .Amenities{
     background-image: url("../assets/bg.jpg");
@@ -25,28 +38,28 @@
 .bgDarkBlue{
     background-color: rgba(0, 3, 36, 0.800);
     color: white;
-    margin-top: 200px;
+    margin-top: 150px;
     padding: 50px;
+    width: auto;
+    
+
 }
 .bottom{
-    margin-bottom: 700px;
     padding: 50px;
 }
-.top{
+/* .top{
     padding-top: 60%;
-}
+} */
 .RoomContainer{
     background-image: url("../assets/bg2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-    height: 600px;
-    width: auto;
+    height: 738px;
 }
-.RoomCards{
-/* background-color: aliceblue; */
+/* .RoomCards{
 color: black;
-}
+} */
 h2 {
     font-weight: 200;
 }
