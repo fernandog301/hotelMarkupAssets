@@ -81,7 +81,7 @@
     /* background-attachment: fixed; */
     background-size:cover;
     /* background-position: center; */
-    height: 738px;
+    /* height: 738px; */
 }
 /* .RoomCards{
 color: black;
@@ -106,4 +106,9 @@ h2 {
     display: flex;
   margin: 45px;
   height: 110px;
+}
+@media (max-width:500px) {
+    .displayNun{
+        display: none;
+    }
 }
