@@ -3,14 +3,28 @@
     /* position: absolute; */
 
 }
+.navbar{
+    background-color: rgb(0,3,36);
+}
 .textWhite{
     color: white;
 }
+.textWhite:hover {
+    border: 1px solid white;
+    color: white;
+}
+
 .border{
     border: 2px solid;
     border-color: white;
     padding-bottom: 1px;
 }
+
+.sethight{
+    width: 100px;
+    height: auto;
+}
+
 .contain {
     background-image: url("../assets/header.jpg");
     background-repeat: no-repeat;
@@ -35,8 +49,17 @@
 }
 .atext{
     color:white;
+}
+
+
+
+
+
+.logoSize{
+    width: 143px;
 
 }
+
 .bgDarkBlue{
     background-color: rgba(0, 3, 36, 0.800);
     color: white;
