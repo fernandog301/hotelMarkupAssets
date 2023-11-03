@@ -1,6 +1,7 @@
 .BGNav{
     background-color: rgb(0,3,36);
-    position: absolute;
+    /* position: absolute; */
+
 }
 .textWhite{
     color: white;
@@ -13,21 +14,22 @@
 .contain {
     background-image: url("../assets/header.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size:cover;
     height: 550px;
 }
 .bgEnd{
     background-image: url("../assets/hamsterreserve.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size:cover;
     height: 550px;
+    background-position: center;
 }
 .Amenities{
     background-image: url("../assets/bg.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size:cover;
     height: 550px;
 }
@@ -53,8 +55,9 @@
 .RoomContainer{
     background-image: url("../assets/bg2.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size:cover;
+    /* background-position: center; */
     height: 738px;
 }
 /* .RoomCards{
@@ -78,7 +81,6 @@ h2 {
 }
 .imagespace{
     display: flex;
-  justify-content: space-around;
   margin: 45px;
   height: 110px;
 }
